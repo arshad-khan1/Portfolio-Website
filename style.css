@@ -337,3 +337,39 @@ nav p:hover {
   height: 100%;
   object-fit: cover;
 }
+
+/* Footer */
+
+#footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: start;
+  /* justify-content:center; */
+  padding-left: 100px;
+  gap: 200px;
+  padding: 100px 100px;
+}
+
+#footer-columns {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#footer-columns h1 {
+  font-size: 20px;
+  color: #2b2b2b;
+}
+
+.footer-menu {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #888;
+  font-weight: 600;
+}
+
+.footer-menu p {
+  margin: 0;
+}

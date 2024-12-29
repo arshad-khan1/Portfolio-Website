@@ -28,6 +28,47 @@ body {
 /* About Section  */
 
 /* Project Section  */
+#project-heading {
+  font-size: 80px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.project {
+  display: flex;
+  gap: 100px;
+  /* padding: 100px 0; */
+  align-items: center;
+  justify-content: center;
+  /* background-color: black; */
+}
+
+.project a {
+  color: #e8e8e8;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#project-card {
+  width: 300px;
+  /* height: 270px; */
+  aspect-ratio: 4/3;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: #141414;
+  box-shadow: 10px 10px 30px rgb(0, 0, 0);
+}
+
+#project-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#project-card p {
+  font-size: 1.2vw;
+  padding: 0 4px;
+  text-align: center;
+}
 
 /* Contact Section  */
 

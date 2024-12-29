@@ -8,6 +8,20 @@ body {
 }
 
 /* Navbar Section */
+.navbar {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar a {
+  color: #e8e8e8;
+  text-decoration: none;
+  font-size: 25px;
+}
 
 /* Hero Section  */
 

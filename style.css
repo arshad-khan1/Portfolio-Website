@@ -23,6 +23,52 @@ body {
   font-size: 25px;
 }
 
+/* About section */
+
+.about {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-left-img {
+  /* width: 80%; */
+  height: 60vh;
+  aspect-ratio: 4/5;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 10px 10px 30px rgb(0, 0, 0);
+}
+
+#about-right {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 30%;
+  text-align: justify;
+  justify-content: space-between;
+  align-items: start;
+}
+
+#about-right p {
+  font-size: 1.6vw;
+}
+
+#skills-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+#about-right img {
+  width: 140px;
+  aspect-ratio: 5/4;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 10px 10px 30px rgb(0, 0, 0);
+}
+
 /* Hero Section  */
 .hero {
   height: 80vh;
